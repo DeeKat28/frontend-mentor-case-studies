@@ -65,14 +65,32 @@ p {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
   .container {
-    width: 80%;
+    width: 25%;
   }
 }
 
 @media (max-width: 1200px) {
   .container {
     width: 30%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 80%;
   }
 }
